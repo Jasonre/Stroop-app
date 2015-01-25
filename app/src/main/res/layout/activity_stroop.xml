@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StroopActivity"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:text="@string/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:id="@+id/determineText"
+        android:layout_gravity="center_horizontal|top"
+        android:shadowRadius="10"
+        android:shadowColor="#ff000000"
+        android:textSize="150sp" />
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="@string/red"
+        android:id="@+id/button"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClickBtn1"
+        android:clickable="true"
+        android:layout_gravity="bottom|left"
+        android:textSize="50sp"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="@string/yellow"
+        android:id="@+id/button2"
+        android:layout_marginLeft="350dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClickBtn2"
+        android:clickable="true"
+        android:layout_gravity="left|bottom"
+        android:textSize="50sp"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="@string/green"
+        android:id="@+id/button3"
+        android:layout_marginLeft="650dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClickBtn3"
+        android:clickable="true"
+        android:layout_gravity="bottom|left"
+        android:textSize="50sp"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="@string/blue"
+        android:id="@+id/button4"
+        android:layout_marginLeft="950dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClickBtn4"
+        android:clickable="true"
+        android:layout_gravity="left|bottom"
+        android:textSize="50sp"
+        android:padding="20dp" />
+
+    <TextView
+        android:text="@string/participant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/participant"
+        android:layout_gravity="right|top"
+        android:shadowRadius="10"
+        android:shadowColor="#ff000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:text="@string/trialCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/trialCount"
+        android:layout_gravity="right|top"
+        android:shadowRadius="10"
+        android:shadowColor="#ff000000"
+        android:textSize="10sp" />
+
+</FrameLayout>
